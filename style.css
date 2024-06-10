@@ -77,7 +77,6 @@ body{
 }
 /*media quary for 320px */
 /* Media Queries for device width of 360px */
-/* Media Queries for device width of 360px */
 @media (max-width: 360px) {
   .head-nav{
     text-align: center;
@@ -126,6 +125,21 @@ body{
   .about_text{
     font-size: 5px;
   }
+  .add{
+    background-color: rgb(212, 209, 209);
+    border: 1px solid balck;
+    border-radius: 4px;
+    width: 350px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 10px 10px 10px black;
+    position: fixed;
+    top: 0;
+  }
+  .add_music_cover_arts{
+    width: 200px;
+  }
 }
 @media (max-width: 375px) {
   .head-nav{
@@ -139,6 +153,22 @@ body{
     left: 0;
     top: 0;
     border-bottom: 1px solid black;
+}
+.add{
+  background-color: rgb(212, 209, 209);
+  border: 1px solid balck;
+  border-radius: 4px;
+  width: 150px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 10px 10px 10px black;
+  position: fixed;
+  top: 0;
+  margin-left: 230px;
+}
+.add_music_cover_arts{
+  width: 80px;
 }
   .head-nav ul li {
     padding: 15px;
@@ -189,6 +219,22 @@ body{
     top: 0;
     border-bottom: 1px solid black;
 }
+.add{
+  background-color: rgb(212, 209, 209);
+  border: 1px solid balck;
+  border-radius: 4px;
+  width: 150px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 10px 10px 10px black;
+  position: fixed;
+  top: 0;
+  margin-left: 230px;
+}
+.add_music_cover_arts{
+  width: 80px;
+}
   .head-nav ul li {
     padding: 15px;
   }
@@ -237,6 +283,22 @@ body{
     left: 0;
     top: 0;
     border-bottom: 1px solid black;
+}
+.add{
+  background-color: rgb(212, 209, 209);
+  border: 1px solid balck;
+  border-radius: 4px;
+  width: 150px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 10px 10px 10px black;
+  position: fixed;
+  top: 0;
+  margin-left: 230px;
+}
+.add_music_cover_arts{
+  width: 80px;
 }
   .head-nav ul li {
     padding: 15px;
