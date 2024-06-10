@@ -1,0 +1,276 @@
+body{
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.head-nav{
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    margin: 0;
+    padding: 0%;
+    background-color: green;
+    position: fixed;
+    left: 0;
+    top: 0;
+    border-bottom: 1px solid black;
+}
+.head-nav ul button{
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: opacity 5s;
+}
+.head-nav ul button:hover{
+    /*background-image: url(images/me\ and\ car.jpg);*/
+    opacity: 0.9;
+}
+.head-nav ul li{
+    list-style: none;
+    padding: 30px;
+    margin-top: 10px;
+    display: inline;
+    
+}
+.head-nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: arial;
+    color: white;
+}
+.song_details{
+    margin-left: 380px;
+}
+.song_click_link_details{
+    margin-left: 380px;
+}
+.true_love_video_link{
+    margin-left: 600px;
+}
+.music_cover_arts{
+    width: 330px;
+    margin-left: 480px;
+    margin-top: 65px;
+}
+.song_title, .artist_name{
+    font-weight: bold;
+}
+.sore_des{
+    margin-left: 380px;
+    margin-right: 300px;
+}
+.streaming_platform_links_for_sore{
+    margin-left: 430px;
+}
+.streaming_platform_links_for_sore .ad, .st, .ap, .yt{
+    margin-left: 30px;
+}
+.about{
+  background-color: rgba(0, 0, 0, 0.404);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.footer_space{
+  margin-bottom: 150px;
+}
+/*media quary for 320px */
+/* Media Queries for device width of 360px */
+/* Media Queries for device width of 360px */
+@media (max-width: 360px) {
+  .head-nav{
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    margin: 0;
+    padding: 0%;
+    background-color: green;
+    position: fixed;
+    left: 0;
+    top: 0;
+    border-bottom: 1px solid black;
+}
+  .head-nav ul li {
+    padding: 15px;
+  }
+  .head-nav ul{
+    margin-left: 20px;
+  }
+  .song_details, .song_click_link_details, .true_love_video_link, .sore_des {
+    margin-left: 0;
+  }
+  .music_cover_arts {
+    width: 200px;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  #block{
+    display: block;
+    margin-left: 50px;
+  }
+  .streaming_platform_links_for_sore {
+    font-size: 10px;
+    margin-left: 0;
+  }
+  .about{
+    background-color: rgba(0, 0, 0, 0.404);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  .footer_space{
+    margin-bottom: 150px;
+  }
+  .about_text{
+    font-size: 5px;
+  }
+}
+@media (max-width: 375px) {
+  .head-nav{
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    margin: 0;
+    padding: 0%;
+    background-color: green;
+    position: fixed;
+    left: 0;
+    top: 0;
+    border-bottom: 1px solid black;
+}
+  .head-nav ul li {
+    padding: 15px;
+  }
+  .head-nav ul{
+    margin-left: 20px;
+  }
+  .song_details, .song_click_link_details, .true_love_video_link, .sore_des {
+    margin-left: 0;
+  }
+  .music_cover_arts {
+    width: 200px;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  #block{
+    display: block;
+    margin-left: 50px;
+  }
+  .streaming_platform_links_for_sore {
+    font-size: 10px;
+    margin-left: 0;
+  }
+  .about{
+    background-color: rgba(0, 0, 0, 0.404);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  .about_text{
+    font-size: 5px;
+  }
+  .footer_space{
+    margin-bottom: 150px;
+  }
+}
+@media (max-width: 414px) {
+  .head-nav{
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    margin: 0;
+    padding: 0%;
+    background-color: green;
+    position: fixed;
+    left: 0;
+    top: 0;
+    border-bottom: 1px solid black;
+}
+  .head-nav ul li {
+    padding: 15px;
+  }
+  .head-nav ul{
+    margin-left: 20px;
+  }
+  .song_details, .song_click_link_details, .true_love_video_link, .sore_des {
+    margin-left: 0;
+  }
+  .music_cover_arts {
+    width: 200px;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  #block{
+    display: block;
+    margin-left: 50px;
+  }
+  .streaming_platform_links_for_sore {
+    font-size: 9px;
+    margin-left: 0;
+  }
+  .about{
+    background-color: rgba(0, 0, 0, 0.404);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  .about_text{
+    font-size: 5px;
+  }
+  .footer_space{
+    margin-bottom: 500px;
+  }
+}
+@media (max-width: 430px) {
+  .head-nav{
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    margin: 0;
+    padding: 0%;
+    background-color: green;
+    position: fixed;
+    left: 0;
+    top: 0;
+    border-bottom: 1px solid black;
+}
+  .head-nav ul li {
+    padding: 15px;
+  }
+  .head-nav ul{
+    margin-left: 20px;
+  }
+  .song_details, .song_click_link_details, .true_love_video_link, .sore_des {
+    margin-left: 0;
+  }
+  .music_cover_arts {
+    width: 200px;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  #block{
+    display: block;
+    margin-left: 50px;
+  }
+  .streaming_platform_links_for_sore {
+    font-size: 9px;
+    margin-left: 0;
+  }
+  .about{
+    background-color: rgba(0, 0, 0, 0.404);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  .about_text{
+    font-size: 5px;
+  }
+  .footer_space{
+    margin-bottom: 500px;
+  }
+}
